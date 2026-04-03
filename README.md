@@ -127,6 +127,8 @@ Raw Data (RetailRocket)
 
 > ⚠️ Dataset files are not included in this repository due to size. Please download from the Kaggle link above and place them in a `/dataset` folder.
 
+> ✅ `ranked_visitors.csv` is a precomputed file containing visitors ranked by predicted conversion probability above a set threshold. It is used directly in Step 17 of the notebook to avoid rerunning the full scoring pipeline (which is computationally expensive) on every execution. Due to file size it is not included in this repository — feel free to reach out via [LinkedIn](https://www.linkedin.com/in/ecembayindir) or [email](mailto:ecmbyndr@gmail.com) to request it.
+
 ---
 
 ## ⚙️ How to Run
@@ -218,7 +220,7 @@ This thesis makes **three novel contributions**:
 </div>
 
 <br>
-<p align="center">© 2026 Ecem Bayındır. All rights reserved.</p>
+<p align="center">© 2025 Ecem Bayındır. All rights reserved.</p>
 <hr/>
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=ecembayindir&repo=hybrid-ml-ai-ecommerce-personalization&label=Repository%20views&color=0e75b6&style=flat" alt="Repository Views">

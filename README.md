@@ -139,45 +139,21 @@ git clone https://github.com/ecembayindir/hybrid-ml-ai-ecommerce-personalization
 cd hybrid-ml-ai-ecommerce-personalization
 ```
 
-### 2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
+### 2. Download the dataset
+Download from [Kaggle](https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset) and place the following files in a `/dataset` folder locally:
+- `events.csv`
+- `item_properties_part1.csv`
+- `item_properties_part2.csv`
+- `category_tree.csv`
 
-### 3. Download the dataset
-Download from [Kaggle](https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset) and place files in:
-```
-dataset/
-├── events.csv
-├── item_properties_part1.csv
-├── item_properties_part2.csv
-└── category_tree.csv
-```
-
-### 4. (Optional) Set up local LLM
+### 3. (Optional) Set up local LLM
 - Install [LM Studio](https://lmstudio.ai/)
 - Download and load `DeepSeek-7B` model locally
 - Start the local inference server on `localhost`
 
-### 5. Run the notebook
+### 4. Run the notebook
 ```bash
 jupyter notebook Bayindir_Ecem_memoire_notebook_SDA_2024_2025.ipynb
-```
-
----
-
-## 📦 Requirements
-
-```
-pandas
-numpy
-lightgbm
-scikit-learn
-shap
-matplotlib
-seaborn
-requests
-jupyter
 ```
 
 ---
